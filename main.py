@@ -11,7 +11,7 @@ while valid == False:
     print("Please enter a password with 8 to 16 characters. ")
 #Checking for special chara
   for  i in range(len(password)):
-    if(len(password)!= specialChara):
+    if(len(password)!= specialChara ):
       print("Please enter a password with at least one special character.")
   
 
